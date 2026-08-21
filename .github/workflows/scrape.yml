@@ -1,0 +1,40 @@
+name: Scrape NYC indie showtimes
+
+on:
+  schedule:
+    # 11:00 UTC = 6am/7am Eastern depending on daylight saving.
+    # Change the cron time below if you'd rather it run at a different hour.
+    - cron: "0 11 * * *"
+  workflow_dispatch: {}   # lets you click "Run workflow" manually on GitHub
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Install Playwright's Chromium browser
+        run: playwright install --with-deps chromium
+
+      - name: Run scrapers
+        run: python main.py
+
+      - name: Commit and push updated showtimes
+        run: |
+          git config user.name "showtimes-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs/
+          git diff --quiet --cached || git commit -m "Update showtimes $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
