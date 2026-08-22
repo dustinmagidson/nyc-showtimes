@@ -1,0 +1,1379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NYC Indie Showtimes</title>
+<style>
+  :root { color-scheme: light dark; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    max-width: 720px; margin: 0 auto; padding: 16px 16px 60px;
+    background: #fafaf8; color: #1a1a1a;
+  }
+  h1 { font-size: 1.4rem; margin-bottom: 2px; }
+  .updated { color: #777; font-size: 0.8rem; margin-bottom: 16px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 20px; }
+  .chip {
+    border: 1px solid #ccc; background: white; border-radius: 999px;
+    padding: 5px 12px; font-size: 0.8rem; cursor: pointer;
+  }
+  .chip.active { background: #1a1a1a; color: white; border-color: #1a1a1a; }
+  .day h2 {
+    font-size: 1rem; text-transform: uppercase; letter-spacing: 0.04em;
+    color: #555; border-bottom: 1px solid #ddd; padding-bottom: 6px; margin-top: 28px;
+  }
+  .row { display: flex; gap: 12px; padding: 10px 0; border-bottom: 1px solid #eee; }
+  .time { width: 72px; flex-shrink: 0; font-variant-numeric: tabular-nums; color: #333; font-size: 0.9rem; }
+  .film { font-weight: 600; color: #111; text-decoration: none; }
+  a .film { color: #111; }
+  .fmt { font-size: 0.7rem; color: #888; margin-left: 6px; border: 1px solid #ddd; border-radius: 4px; padding: 1px 5px; }
+  .theater { font-size: 0.8rem; color: #777; margin-top: 2px; }
+  .note { font-size: 0.78rem; color: #a15c00; margin-top: 2px; }
+  .errors { margin-top: 24px; font-size: 0.85rem; color: #a00; }
+  @media (prefers-color-scheme: dark) {
+    body { background: #111; color: #eee; }
+    .chip { background: #222; border-color: #444; color: #eee; }
+    .chip.active { background: #eee; color: #111; }
+    .row { border-color: #2a2a2a; }
+    .day h2 { border-color: #333; color: #aaa; }
+    .film, a .film { color: #fff; }
+  }
+</style>
+</head>
+<body>
+  <h1>NYC Indie Showtimes</h1>
+  <div class="updated">Updated Saturday, August 22 at 11:42 AM</div>
+  <div class="chips" id="chips">
+    <button class="chip active" data-theater="all">All</button>
+    <button class="chip" data-theater="Metrograph">Metrograph</button>
+  </div>
+  
+        <section class="day">
+          <h2>Saturday, August 22</h2>
+          
+            <div class="row" data-theater="Metrograph">
+              <div class="time">11:00 AM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30595" target="_blank" rel="noopener"><span class="film">E.T. the Extra-Terrestrial</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">11:00 AM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30600" target="_blank" rel="noopener"><span class="film">The Jungle Book</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">12:00 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30587" target="_blank" rel="noopener"><span class="film">When Marnie Was There</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">12:15 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30702" target="_blank" rel="noopener"><span class="film">Saturday Afternoon Cartoons: Bugs We Love(?)</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">12:40 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30601" target="_blank" rel="noopener"><span class="film">When Marnie Was There</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">1:30 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30596" target="_blank" rel="noopener"><span class="film">The Dark Knight</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">2:30 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30591" target="_blank" rel="noopener"><span class="film">Days and Nights in the Forest</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">2:45 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30602" target="_blank" rel="noopener"><span class="film">Petite Maman</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">3:00 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30734" target="_blank" rel="noopener"><span class="film">Vertigo</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">3:30 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30735" target="_blank" rel="noopener"><span class="film">The Great Silence</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">4:30 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30597" target="_blank" rel="noopener"><span class="film">Pastorale</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">5:00 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30592" target="_blank" rel="noopener"><span class="film">True Romance</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">5:15 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30579" target="_blank" rel="noopener"><span class="film">The Dark Knight</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">5:40 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30736" target="_blank" rel="noopener"><span class="film">La Haine</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">5:45 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30737" target="_blank" rel="noopener"><span class="film">Falling Leaves</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">6:40 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30598" target="_blank" rel="noopener"><span class="film">Bram Stoker's Dracula</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">6:45 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30604" target="_blank" rel="noopener"><span class="film">Chasing Butterflies</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">7:40 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30739" target="_blank" rel="noopener"><span class="film">There Once Was a Singing Blackbird</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">7:45 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30593" target="_blank" rel="noopener"><span class="film">Bram Stoker's Dracula</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">7:45 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30738" target="_blank" rel="noopener"><span class="film">House</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">8:30 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30580" target="_blank" rel="noopener"><span class="film">True Romance</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">9:15 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30605" target="_blank" rel="noopener"><span class="film">In My Skin</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">9:20 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30599" target="_blank" rel="noopener"><span class="film">After Hours</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">9:40 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30740" target="_blank" rel="noopener"><span class="film">Wake in Fright</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">9:45 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30741" target="_blank" rel="noopener"><span class="film">Fallen Angels</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">10:30 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30594" target="_blank" rel="noopener"><span class="film">Women on the Verge of a Nervous Breakdown</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">10:35 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30590" target="_blank" rel="noopener"><span class="film">Spider Baby</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">10:50 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30586" target="_blank" rel="noopener"><span class="film">Raw</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">11:00 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30581" target="_blank" rel="noopener"><span class="film">House</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+        </section>
+        <section class="day">
+          <h2>Tuesday, August 25</h2>
+          
+            <div class="row" data-theater="Metrograph">
+              <div class="time">11:00 AM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30658" target="_blank" rel="noopener"><span class="film">E.T. the Extra-Terrestrial</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">11:00 AM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30768" target="_blank" rel="noopener"><span class="film">Playtime</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">11:10 AM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30771" target="_blank" rel="noopener"><span class="film">E.T. the Extra-Terrestrial</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">11:15 AM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30663" target="_blank" rel="noopener"><span class="film">Goodbye, Dragon Inn</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">11:30 AM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30646" target="_blank" rel="noopener"><span class="film">Old Joy</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">11:45 AM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30652" target="_blank" rel="noopener"><span class="film">Petite Maman</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">12:00 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30779" target="_blank" rel="noopener"><span class="film">Shanghai Blues</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">12:00 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30778" target="_blank" rel="noopener"><span class="film">Jason and the Argonauts</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">12:00 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30788" target="_blank" rel="noopener"><span class="film">Playtime</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">12:00 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30805" target="_blank" rel="noopener"><span class="film">The Sandwich Man</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">12:00 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30817" target="_blank" rel="noopener"><span class="film">Evita</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">12:15 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30796" target="_blank" rel="noopener"><span class="film">Millennium Mambo</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">12:30 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30806" target="_blank" rel="noopener"><span class="film">Stealing Beauty</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">12:30 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30818" target="_blank" rel="noopener"><span class="film">Dust in the Wind</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">1:00 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30664" target="_blank" rel="noopener"><span class="film">Lady in the Water</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">1:20 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30647" target="_blank" rel="noopener"><span class="film">Mississippi Mermaid</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">1:25 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30659" target="_blank" rel="noopener"><span class="film">Bram Stoker's Dracula</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">1:30 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30701" target="_blank" rel="noopener"><span class="film">Chungking Express</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">1:30 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30770" target="_blank" rel="noopener"><span class="film">Happy Hour</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">1:35 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30769" target="_blank" rel="noopener"><span class="film">A Brighter Summer Day</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">2:00 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30743" target="_blank" rel="noopener"><span class="film">La Notte</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">2:00 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30744" target="_blank" rel="noopener"><span class="film">Girlhood</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">2:10 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30780" target="_blank" rel="noopener"><span class="film">Brazil</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">2:15 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30752" target="_blank" rel="noopener"><span class="film">Deliverance</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">2:15 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30807" target="_blank" rel="noopener"><span class="film">Don't Play with Fire</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">2:25 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30759" target="_blank" rel="noopener"><span class="film">Chocolat</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">2:25 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30760" target="_blank" rel="noopener"><span class="film">The Apartment</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">2:30 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30761" target="_blank" rel="noopener"><span class="film">2046</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">2:30 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30781" target="_blank" rel="noopener"><span class="film">Clash of the Titans</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">2:30 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30795" target="_blank" rel="noopener"><span class="film">Brazil</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">2:35 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30789" target="_blank" rel="noopener"><span class="film">The Apartment</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">2:45 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30820" target="_blank" rel="noopener"><span class="film">The Rice Dumpling Vendors</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">2:50 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30819" target="_blank" rel="noopener"><span class="film">Hercules in the Haunted World</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">3:00 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30816" target="_blank" rel="noopener"><span class="film">Games of Love and Loneliness</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">3:15 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30665" target="_blank" rel="noopener"><span class="film">Der Fan</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">3:20 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30797" target="_blank" rel="noopener"><span class="film">Troy</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">3:25 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30700" target="_blank" rel="noopener"><span class="film">The Dark Knight</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">3:45 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30648" target="_blank" rel="noopener"><span class="film">Stand By Me</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">3:45 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30798" target="_blank" rel="noopener"><span class="film">Brazil</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">3:50 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30654" target="_blank" rel="noopener"><span class="film">In My Skin</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">4:00 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30642" target="_blank" rel="noopener"><span class="film">Days and Nights in the Forest</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">4:00 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30660" target="_blank" rel="noopener"><span class="film">Mulholland Drive [35mm]</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">4:15 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30751" target="_blank" rel="noopener"><span class="film">Les Bonnes Femmes</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">4:20 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30808" target="_blank" rel="noopener"><span class="film">Orpheus</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">4:30 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30745" target="_blank" rel="noopener"><span class="film">Before Sunrise</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">4:30 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30753" target="_blank" rel="noopener"><span class="film">3 Women</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">4:40 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30821" target="_blank" rel="noopener"><span class="film">Zu: Warriors from the Magic Mountain</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">4:45 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30758" target="_blank" rel="noopener"><span class="film">Conversation Piece</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">4:45 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30826" target="_blank" rel="noopener"><span class="film">Next of Kin</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">5:00 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30762" target="_blank" rel="noopener"><span class="film">The City of Lost Children</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">5:00 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30783" target="_blank" rel="noopener"><span class="film">Treasure of the Bitch Islands</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">5:00 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30782" target="_blank" rel="noopener"><span class="film">Out of the Blue</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">5:10 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30815" target="_blank" rel="noopener"><span class="film">Wives: Ten Years After</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">5:15 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30666" target="_blank" rel="noopener"><span class="film">Eve's Bayou</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">5:15 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30763" target="_blank" rel="noopener"><span class="film">Daughter of the Nile</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">5:15 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30790" target="_blank" rel="noopener"><span class="film">A Brighter Summer Day</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">5:20 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30794" target="_blank" rel="noopener"><span class="film">Delicatessen</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">5:40 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30649" target="_blank" rel="noopener"><span class="film">2046</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">6:00 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30655" target="_blank" rel="noopener"><span class="film">Lady in the Water</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">6:00 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30704" target="_blank" rel="noopener"><span class="film">Wiseman's NYC: Model</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">6:15 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30643" target="_blank" rel="noopener"><span class="film">Jennifer's Body</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">6:20 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30750" target="_blank" rel="noopener"><span class="film">And Then There Was Light</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">6:25 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30799" target="_blank" rel="noopener"><span class="film">Wives (Hustruer)</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">6:25 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30809" target="_blank" rel="noopener"><span class="film">Black Orpheus</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">6:30 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30639" target="_blank" rel="noopener"><span class="film">Women on the Verge of a Nervous Breakdown</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">6:30 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30800" target="_blank" rel="noopener"><span class="film">Peking Opera Blues</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">6:45 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30746" target="_blank" rel="noopener"><span class="film">The Hunger</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">6:45 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30822" target="_blank" rel="noopener"><span class="film">Don't Play with Fire</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">7:00 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30754" target="_blank" rel="noopener"><span class="film">Collateral</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">7:00 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30661" target="_blank" rel="noopener"><span class="film">2046</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">7:00 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30825" target="_blank" rel="noopener"><span class="film">The Witch Hunt</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">7:10 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30772" target="_blank" rel="noopener"><span class="film">Old Joy</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">7:10 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30784" target="_blank" rel="noopener"><span class="film">Troy</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">7:15 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30757" target="_blank" rel="noopener"><span class="film">My Night at Maud's</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">7:15 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30814" target="_blank" rel="noopener"><span class="film">Wives III</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">7:20 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30764" target="_blank" rel="noopener"><span class="film">Shanghai Blues</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">7:30 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30667" target="_blank" rel="noopener"><span class="film">Jennifer's Body</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">7:30 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30765" target="_blank" rel="noopener"><span class="film">American Job</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">7:30 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30785" target="_blank" rel="noopener"><span class="film">2046</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">7:30 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30793" target="_blank" rel="noopener"><span class="film">The City of Lost Children</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">8:15 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30650" target="_blank" rel="noopener"><span class="film">Nenette and Boni</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">8:25 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30644" target="_blank" rel="noopener"><span class="film">Eve's Bayou</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">8:30 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30749" target="_blank" rel="noopener"><span class="film">Je Tu Il Elle</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">8:30 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30640" target="_blank" rel="noopener"><span class="film">Der Fan</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">8:30 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30656" target="_blank" rel="noopener"><span class="film">Der Fan</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">8:40 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30773" target="_blank" rel="noopener"><span class="film">After Hours</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">8:40 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30801" target="_blank" rel="noopener"><span class="film">Don't Play with Fire</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">8:40 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30810" target="_blank" rel="noopener"><span class="film">Dust in the Wind</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">8:45 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30802" target="_blank" rel="noopener"><span class="film">Office Space</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">9:00 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30747" target="_blank" rel="noopener"><span class="film">Solaris</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">9:00 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30774" target="_blank" rel="noopener"><span class="film">Daughter of the Nile</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">9:00 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30813" target="_blank" rel="noopener"><span class="film">I Hired a Contract Killer</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">9:00 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30823" target="_blank" rel="noopener"><span class="film">Uncut Gems</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">9:15 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30824" target="_blank" rel="noopener"><span class="film">Peking Opera Blues</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">9:30 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30755" target="_blank" rel="noopener"><span class="film">Drunken Master II</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">9:30 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30766" target="_blank" rel="noopener"><span class="film">Peking Opera Blues</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">9:35 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30756" target="_blank" rel="noopener"><span class="film">Love in the Afternoon</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">9:35 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30767" target="_blank" rel="noopener"><span class="film">Delicatessen</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">9:40 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30662" target="_blank" rel="noopener"><span class="film">After Hours</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">9:45 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30668" target="_blank" rel="noopener"><span class="film">In My Skin</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">9:45 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30791" target="_blank" rel="noopener"><span class="film">Peking Opera Blues</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">9:50 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30792" target="_blank" rel="noopener"><span class="film">Raw</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">10:20 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30748" target="_blank" rel="noopener"><span class="film">Obsession</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">10:20 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30786" target="_blank" rel="noopener"><span class="film">Der Fan</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">10:25 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30787" target="_blank" rel="noopener"><span class="film">Women on the Verge of a Nervous Breakdown</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">10:30 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30641" target="_blank" rel="noopener"><span class="film">House</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">10:30 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30651" target="_blank" rel="noopener"><span class="film">Mulholland Drive [35mm]</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">10:35 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30645" target="_blank" rel="noopener"><span class="film">Raw</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">10:45 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30657" target="_blank" rel="noopener"><span class="film">True Romance</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">10:45 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30775" target="_blank" rel="noopener"><span class="film">Mulholland Drive [35mm]</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">10:45 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30803" target="_blank" rel="noopener"><span class="film">Uncut Gems</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">10:50 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30804" target="_blank" rel="noopener"><span class="film">2046</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">11:00 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30777" target="_blank" rel="noopener"><span class="film">Jennifer's Body</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">11:00 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30812" target="_blank" rel="noopener"><span class="film">Office Space</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+            <div class="row" data-theater="Metrograph">
+              <div class="time">11:00 PM</div>
+              <div class="info">
+                <a href="https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&amp;txtSessionId=30811" target="_blank" rel="noopener"><span class="film">Rebels of the Neon God</span></a>
+                
+                <div class="theater">Metrograph</div>
+                
+              </div>
+            </div>
+        </section>
+  
+        <details class="errors">
+          <summary>5 theater(s) failed to scrape this run</summary>
+          <ul><li><strong>Film Forum:</strong> unexpected error: No module named 'scrapers.filmforum'</li><li><strong>IFC Center:</strong> unexpected error: No module named 'scrapers.ifc'</li><li><strong>Roxy Cinema:</strong> unexpected error: No module named 'scrapers.roxy'</li><li><strong>Angelika Film Center:</strong> unexpected error: No module named 'scrapers.angelika'</li><li><strong>Paris Theater:</strong> unexpected error: No module named 'scrapers.paris'</li></ul>
+        </details>
+
+<script>
+  const chips = document.querySelectorAll('.chip');
+  chips.forEach(chip => chip.addEventListener('click', () => {
+    chips.forEach(c => c.classList.remove('active'));
+    chip.classList.add('active');
+    const theater = chip.dataset.theater;
+    document.querySelectorAll('.row').forEach(row => {
+      row.style.display = (theater === 'all' || row.dataset.theater === theater) ? 'flex' : 'none';
+    });
+    document.querySelectorAll('.day').forEach(day => {
+      const visible = [...day.querySelectorAll('.row')].some(r => r.style.display !== 'none');
+      day.style.display = visible ? 'block' : 'none';
+    });
+  }));
+</script>
+</body>
+</html>
