@@ -1,24 +1,8 @@
 [
   {
     "theater": "Metrograph",
-    "film": "Playtime",
-    "start": "2026-09-05T11:00:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30768",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "E.T. the Extra-Terrestrial",
-    "start": "2026-09-05T11:10:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30771",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
     "film": "Shanghai Blues",
-    "start": "2026-09-05T12:00:00",
+    "start": "2026-09-06T12:00:00",
     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30779",
     "format": null,
     "note": null
@@ -26,7 +10,7 @@
   {
     "theater": "Metrograph",
     "film": "Jason and the Argonauts",
-    "start": "2026-09-05T12:00:00",
+    "start": "2026-09-06T12:00:00",
     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30778",
     "format": null,
     "note": null
@@ -34,55 +18,23 @@
   {
     "theater": "Metrograph",
     "film": "Playtime",
-    "start": "2026-09-05T12:00:00",
+    "start": "2026-09-06T12:00:00",
     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30788",
     "format": null,
     "note": null
   },
   {
     "theater": "Metrograph",
-    "film": "Millennium Mambo",
-    "start": "2026-09-05T12:15:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30796",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "A Brighter Summer Day",
-    "start": "2026-09-05T13:35:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30769",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
     "film": "Brazil",
-    "start": "2026-09-05T14:10:00",
+    "start": "2026-09-06T14:10:00",
     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30780",
     "format": null,
     "note": null
   },
   {
     "theater": "Metrograph",
-    "film": "The Apartment",
-    "start": "2026-09-05T14:25:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30760",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "2046",
-    "start": "2026-09-05T14:30:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30761",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
     "film": "Clash of the Titans",
-    "start": "2026-09-05T14:30:00",
+    "start": "2026-09-06T14:30:00",
     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30781",
     "format": null,
     "note": null
@@ -90,7 +42,7 @@
   {
     "theater": "Metrograph",
     "film": "Brazil",
-    "start": "2026-09-05T14:30:00",
+    "start": "2026-09-06T14:30:00",
     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30795",
     "format": null,
     "note": null
@@ -98,119 +50,31 @@
   {
     "theater": "Metrograph",
     "film": "The Apartment",
-    "start": "2026-09-05T14:35:00",
+    "start": "2026-09-06T14:35:00",
     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30789",
     "format": null,
     "note": null
   },
   {
     "theater": "Metrograph",
-    "film": "True Romance",
-    "start": "2026-09-05T15:00:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30871",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "Chungking Express",
-    "start": "2026-09-05T15:00:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30879",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "Boyfriends and Girlfriends",
-    "start": "2026-09-05T15:15:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30891",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "Happy Together",
-    "start": "2026-09-05T15:25:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30878",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "Walkabout",
-    "start": "2026-09-05T16:00:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30870",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "Vertigo",
-    "start": "2026-09-05T16:00:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30864",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "Rebecca",
-    "start": "2026-09-05T16:20:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30858",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "A Day in the Country + People on Sunday",
-    "start": "2026-09-05T16:45:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30860",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "The City of Lost Children",
-    "start": "2026-09-05T17:00:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30762",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "The Hunger",
-    "start": "2026-09-05T17:00:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30888",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "Treasure of the Bitch Islands",
-    "start": "2026-09-05T17:00:00",
+    "film": "The Treasure of Bitch Islands",
+    "start": "2026-09-06T17:00:00",
     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30783",
     "format": null,
     "note": null
   },
   {
     "theater": "Metrograph",
-    "film": "Fallen Angels",
-    "start": "2026-09-05T17:10:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30880",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "Daughter of the Nile",
-    "start": "2026-09-05T17:15:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30763",
+    "film": "The Hunger",
+    "start": "2026-09-06T17:00:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30888",
     "format": null,
     "note": null
   },
   {
     "theater": "Metrograph",
     "film": "A Brighter Summer Day",
-    "start": "2026-09-05T17:15:00",
+    "start": "2026-09-06T17:15:00",
     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30790",
     "format": null,
     "note": null
@@ -218,231 +82,23 @@
   {
     "theater": "Metrograph",
     "film": "Delicatessen",
-    "start": "2026-09-05T17:20:00",
+    "start": "2026-09-06T17:20:00",
     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30794",
     "format": null,
     "note": null
   },
   {
     "theater": "Metrograph",
-    "film": "What Lies Beneath",
-    "start": "2026-09-05T17:25:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30877",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "La Notte",
-    "start": "2026-09-05T17:30:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30872",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "L'Argent",
-    "start": "2026-09-05T17:30:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30885",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "The Triplets of Belleville",
-    "start": "2026-09-05T18:00:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30869",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "Wiseman's NYC: Model",
-    "start": "2026-09-05T18:00:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30704",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "The Dark Knight",
-    "start": "2026-09-05T18:40:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30865",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "Possession [35mm]",
-    "start": "2026-09-05T19:00:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30859",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "Jonah Who Will Be 25 in the Year 2000",
-    "start": "2026-09-05T19:10:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30861",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "Old Joy",
-    "start": "2026-09-05T19:10:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30772",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
     "film": "Troy",
-    "start": "2026-09-05T19:10:00",
+    "start": "2026-09-06T19:10:00",
     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30784",
     "format": null,
     "note": null
   },
   {
     "theater": "Metrograph",
-    "film": "The Hunger",
-    "start": "2026-09-05T19:20:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30881",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "Shanghai Blues",
-    "start": "2026-09-05T19:20:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30764",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "Der Fan",
-    "start": "2026-09-05T19:30:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30884",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "American Job",
-    "start": "2026-09-05T19:30:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30765",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "2046",
-    "start": "2026-09-05T19:30:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30785",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "The City of Lost Children",
-    "start": "2026-09-05T19:30:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30793",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "Claire's Knee",
-    "start": "2026-09-05T19:45:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30868",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "Der Fan",
-    "start": "2026-09-05T20:00:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30873",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "La Haine",
-    "start": "2026-09-05T20:00:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30887",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "After Hours",
-    "start": "2026-09-05T20:40:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30773",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "Daughter of the Nile",
-    "start": "2026-09-05T21:00:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30774",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "Collateral",
-    "start": "2026-09-05T21:30:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30882",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
     "film": "Peking Opera Blues",
-    "start": "2026-09-05T21:30:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30766",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "Der Fan",
-    "start": "2026-09-05T21:35:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30862",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "The Others",
-    "start": "2026-09-05T21:35:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30883",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "Delicatessen",
-    "start": "2026-09-05T21:35:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30767",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "Tampopo",
-    "start": "2026-09-05T21:45:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30866",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "Peking Opera Blues",
-    "start": "2026-09-05T21:45:00",
+    "start": "2026-09-06T21:45:00",
     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30791",
     "format": null,
     "note": null
@@ -450,7 +106,7 @@
   {
     "theater": "Metrograph",
     "film": "Raw",
-    "start": "2026-09-05T21:50:00",
+    "start": "2026-09-06T21:50:00",
     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30792",
     "format": null,
     "note": null
@@ -458,23 +114,7 @@
   {
     "theater": "Metrograph",
     "film": "Der Fan",
-    "start": "2026-09-05T22:00:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30867",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "Irreversible",
-    "start": "2026-09-05T22:00:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30874",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "Der Fan",
-    "start": "2026-09-05T22:20:00",
+    "start": "2026-09-06T22:20:00",
     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30786",
     "format": null,
     "note": null
@@ -482,64 +122,8 @@
   {
     "theater": "Metrograph",
     "film": "Women on the Verge of a Nervous Breakdown",
-    "start": "2026-09-05T22:25:00",
+    "start": "2026-09-06T22:25:00",
     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30787",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "Mulholland Drive [35mm]",
-    "start": "2026-09-05T22:45:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30775",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "Jennifer's Body",
-    "start": "2026-09-05T23:00:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30777",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "Ghost in the Shell: 30th Anniversary Remaster",
-    "start": "2026-09-08T11:00:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30848",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "The Little Mermaid",
-    "start": "2026-09-08T11:00:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30847",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "The Little Mermaid",
-    "start": "2026-09-08T11:00:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30931",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "Goodbye, Dragon Inn",
-    "start": "2026-09-08T11:00:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30932",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "Paprika",
-    "start": "2026-09-08T11:45:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30835",
     "format": null,
     "note": null
   },
@@ -561,30 +145,6 @@
   },
   {
     "theater": "Metrograph",
-    "film": "The Warriors",
-    "start": "2026-09-08T12:00:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30919",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "Oedipus Rex",
-    "start": "2026-09-08T12:15:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30845",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "The Double",
-    "start": "2026-09-08T12:15:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30920",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
     "film": "Stealing Beauty",
     "start": "2026-09-08T12:30:00",
     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30806",
@@ -601,54 +161,6 @@
   },
   {
     "theater": "Metrograph",
-    "film": "A Better Tomorrow III: Love and Death in Saigon",
-    "start": "2026-09-08T12:45:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30933",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "Medea (1969)",
-    "start": "2026-09-08T12:50:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30849",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "Pushing Hands",
-    "start": "2026-09-08T12:50:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30934",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "Knock Off",
-    "start": "2026-09-08T13:00:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30850",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "Zu: Warriors from the Magic Mountain",
-    "start": "2026-09-08T13:50:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30846",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "The Blade",
-    "start": "2026-09-08T14:00:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30921",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
     "film": "Don't Play with Fire",
     "start": "2026-09-08T14:15:00",
     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30807",
@@ -657,25 +169,9 @@
   },
   {
     "theater": "Metrograph",
-    "film": "Iphigenia",
-    "start": "2026-09-08T14:15:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30924",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "Notes Toward an African Orestes",
+    "film": "The Sandwich Man",
     "start": "2026-09-08T14:30:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30844",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "Four Adventures of Reinette and Mirabelle",
-    "start": "2026-09-08T14:35:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30918",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30963",
     "format": null,
     "note": null
   },
@@ -689,14 +185,6 @@
   },
   {
     "theater": "Metrograph",
-    "film": "Yi Yi",
-    "start": "2026-09-08T14:40:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30827",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
     "film": "The Rice Dumpling Vendors",
     "start": "2026-09-08T14:45:00",
     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30820",
@@ -705,9 +193,9 @@
   },
   {
     "theater": "Metrograph",
-    "film": "The Wedding Banquet",
+    "film": "Don't Play with Fire",
     "start": "2026-09-08T14:45:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30914",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30964",
     "format": null,
     "note": null
   },
@@ -737,49 +225,17 @@
   },
   {
     "theater": "Metrograph",
-    "film": "Wives (Hustruer)",
-    "start": "2026-09-08T15:00:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30851",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "The Wedding Banquet",
-    "start": "2026-09-08T15:00:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30935",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "Jollof Films Presents: Faat Kin\u00e9",
-    "start": "2026-09-08T15:00:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30936",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "Time and Tide",
-    "start": "2026-09-08T15:10:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30852",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "Evita",
-    "start": "2026-09-08T15:15:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30828",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
     "film": "Troy",
     "start": "2026-09-08T15:20:00",
     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30797",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "2046",
+    "start": "2026-09-08T15:30:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30966",
     "format": null,
     "note": null
   },
@@ -793,6 +249,14 @@
   },
   {
     "theater": "Metrograph",
+    "film": "Chasing Butterflies",
+    "start": "2026-09-08T15:45:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30967",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
     "film": "Nenette and Boni",
     "start": "2026-09-08T16:00:00",
     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30893",
@@ -801,25 +265,9 @@
   },
   {
     "theater": "Metrograph",
-    "film": "Games of Love and Loneliness",
+    "film": "The Night is Short, Walk on Girl",
     "start": "2026-09-08T16:00:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30843",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "ACE Presents: Pumping Iron",
-    "start": "2026-09-08T16:00:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30836",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "Tokyo Melody",
-    "start": "2026-09-08T16:10:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30922",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30955",
     "format": null,
     "note": null
   },
@@ -841,6 +289,14 @@
   },
   {
     "theater": "Metrograph",
+    "film": "Old Joy",
+    "start": "2026-09-08T16:20:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30962",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
     "film": "There Once Was a Singing Blackbird",
     "start": "2026-09-08T16:35:00",
     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30904",
@@ -857,25 +313,9 @@
   },
   {
     "theater": "Metrograph",
-    "film": "Daughter's Daughter",
-    "start": "2026-09-08T16:40:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30907",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
     "film": "Next of Kin",
     "start": "2026-09-08T16:45:00",
     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30826",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "Electra, My Love",
-    "start": "2026-09-08T16:45:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30923",
     "format": null,
     "note": null
   },
@@ -890,22 +330,6 @@
   {
     "theater": "Metrograph",
     "film": "Wives: Ten Years After",
-    "start": "2026-09-08T17:00:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30857",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "The Blade",
-    "start": "2026-09-08T17:00:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30915",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "Wives: Ten Years After",
     "start": "2026-09-08T17:10:00",
     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30815",
     "format": null,
@@ -913,41 +337,17 @@
   },
   {
     "theater": "Metrograph",
-    "film": "Ryuichi Sakamoto | Opus",
-    "start": "2026-09-08T17:15:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30937",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "Yi Yi",
-    "start": "2026-09-08T17:30:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30853",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "Ryuichi Sakamoto: Diaries",
-    "start": "2026-09-08T17:45:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30925",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "The Left-Handed Girl",
+    "film": "The Apartment",
     "start": "2026-09-08T18:00:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30829",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30956",
     "format": null,
     "note": null
   },
   {
     "theater": "Metrograph",
-    "film": "Story of Mother",
+    "film": "Out of the Blue",
     "start": "2026-09-08T18:00:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30942",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30968",
     "format": null,
     "note": null
   },
@@ -961,9 +361,17 @@
   },
   {
     "theater": "Metrograph",
-    "film": "Stray Dogs",
+    "film": "Farewell, Home Sweet Home",
     "start": "2026-09-08T18:10:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30830",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30961",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "A Brighter Summer Day",
+    "start": "2026-09-08T18:10:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30972",
     "format": null,
     "note": null
   },
@@ -972,30 +380,6 @@
     "film": "Pastorale",
     "start": "2026-09-08T18:15:00",
     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30903",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "Next of Kin",
-    "start": "2026-09-08T18:15:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30842",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "Time and Tide",
-    "start": "2026-09-08T18:20:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30930",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "Wives (Hustruer)",
-    "start": "2026-09-08T18:25:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30799",
     "format": null,
     "note": null
   },
@@ -1033,25 +417,9 @@
   },
   {
     "theater": "Metrograph",
-    "film": "Wives III",
-    "start": "2026-09-08T19:00:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30856",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
     "film": "The Dark Knight",
     "start": "2026-09-08T19:10:00",
     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30899",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "Se7en",
-    "start": "2026-09-08T19:10:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30916",
     "format": null,
     "note": null
   },
@@ -1065,38 +433,6 @@
   },
   {
     "theater": "Metrograph",
-    "film": "This Long Century Presents: Salom\u00e9 Lamas",
-    "start": "2026-09-08T19:15:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30917",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "The Night is Short, Walk on Girl",
-    "start": "2026-09-08T20:00:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30895",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "Ryuichi Sakamoto: Coda",
-    "start": "2026-09-08T20:00:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30941",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "Fireflies Press Presents: Morvern Callar",
-    "start": "2026-09-08T20:00:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30938",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
     "film": "Wake in Fright",
     "start": "2026-09-08T20:10:00",
     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30902",
@@ -1105,9 +441,25 @@
   },
   {
     "theater": "Metrograph",
-    "film": "Stealing Beauty",
-    "start": "2026-09-08T20:15:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30841",
+    "film": "Don't Play with Fire",
+    "start": "2026-09-08T20:10:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30969",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "Daughter of the Nile",
+    "start": "2026-09-08T20:30:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30957",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "Don't Play with Fire",
+    "start": "2026-09-08T20:35:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30960",
     "format": null,
     "note": null
   },
@@ -1137,38 +489,6 @@
   },
   {
     "theater": "Metrograph",
-    "film": "Stray Dogs",
-    "start": "2026-09-08T20:45:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30855",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "Alien: Resurrection",
-    "start": "2026-09-08T20:45:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30929",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "The Blade",
-    "start": "2026-09-08T20:50:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30831",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "Se7en",
-    "start": "2026-09-08T20:50:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30854",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
     "film": "I Hired a Contract Killer",
     "start": "2026-09-08T21:00:00",
     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30813",
@@ -1185,33 +505,9 @@
   },
   {
     "theater": "Metrograph",
-    "film": "The Witch Hunt",
-    "start": "2026-09-08T21:00:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30832",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "Ghost in the Shell: 30th Anniversary Remaster",
-    "start": "2026-09-08T21:00:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30838",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
     "film": "Peking Opera Blues",
     "start": "2026-09-08T21:15:00",
     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30824",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "The Ninth Gate",
-    "start": "2026-09-08T21:45:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30911",
     "format": null,
     "note": null
   },
@@ -1225,17 +521,9 @@
   },
   {
     "theater": "Metrograph",
-    "film": "A Better Tomorrow III: Love and Death in Saigon",
-    "start": "2026-09-08T22:00:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30912",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "Oedipus Rex",
-    "start": "2026-09-08T22:00:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30940",
+    "film": "Withnail and I",
+    "start": "2026-09-08T22:10:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30970",
     "format": null,
     "note": null
   },
@@ -1249,17 +537,33 @@
   },
   {
     "theater": "Metrograph",
-    "film": "Paprika",
-    "start": "2026-09-08T22:15:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30939",
+    "film": "Chungking Express",
+    "start": "2026-09-08T22:20:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30901",
     "format": null,
     "note": null
   },
   {
     "theater": "Metrograph",
-    "film": "Chungking Express",
-    "start": "2026-09-08T22:20:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30901",
+    "film": "La Haine",
+    "start": "2026-09-08T22:30:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30958",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "Happy Together",
+    "start": "2026-09-08T22:35:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30959",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "Women on the Verge of a Nervous Breakdown",
+    "start": "2026-09-08T22:35:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30971",
     "format": null,
     "note": null
   },
@@ -1273,25 +577,9 @@
   },
   {
     "theater": "Metrograph",
-    "film": "Don't Play with Fire",
-    "start": "2026-09-08T22:45:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30840",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
     "film": "2046",
     "start": "2026-09-08T22:50:00",
     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30804",
-    "format": null,
-    "note": null
-  },
-  {
-    "theater": "Metrograph",
-    "film": "The Warriors",
-    "start": "2026-09-08T22:50:00",
-    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30839",
     "format": null,
     "note": null
   },
@@ -1313,8 +601,760 @@
   },
   {
     "theater": "Metrograph",
+    "film": "Ghost in the Shell: 30th Anniversary Remaster",
+    "start": "2026-09-17T11:00:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30848",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "The Little Mermaid",
+    "start": "2026-09-17T11:00:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30847",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "The Little Mermaid",
+    "start": "2026-09-17T11:00:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30931",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "Goodbye, Dragon Inn",
+    "start": "2026-09-17T11:00:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30932",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "The Double",
+    "start": "2026-09-17T11:00:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30994",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "Small Change",
+    "start": "2026-09-17T11:00:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30993",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "Paprika",
+    "start": "2026-09-17T11:45:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30835",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "The Warriors",
+    "start": "2026-09-17T12:00:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30919",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "Pushing Hands",
+    "start": "2026-09-17T12:00:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30987",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "The Beach",
+    "start": "2026-09-17T12:00:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30984",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "Oedipus Rex",
+    "start": "2026-09-17T12:15:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30845",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "The Double",
+    "start": "2026-09-17T12:15:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30920",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "A Better Tomorrow III: Love and Death in Saigon",
+    "start": "2026-09-17T12:45:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30933",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "Medea (1969)",
+    "start": "2026-09-17T12:50:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30849",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "Pushing Hands",
+    "start": "2026-09-17T12:50:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30934",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
     "film": "Knock Off",
-    "start": "2026-09-08T23:00:00",
+    "start": "2026-09-17T13:00:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30850",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "Amour",
+    "start": "2026-09-17T13:00:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31002",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "High and Low",
+    "start": "2026-09-17T13:15:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30995",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "Paprika",
+    "start": "2026-09-17T13:45:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30974",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "Zu: Warriors from the Magic Mountain",
+    "start": "2026-09-17T13:50:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30846",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "The Blade",
+    "start": "2026-09-17T14:00:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30921",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "Iphigenia",
+    "start": "2026-09-17T14:15:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30924",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "Tokyo Melody",
+    "start": "2026-09-17T14:15:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30992",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "Amour",
+    "start": "2026-09-17T14:15:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30985",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "Notes Toward an African Orestes",
+    "start": "2026-09-17T14:30:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30844",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "The Taking of Pelham One Two Three",
+    "start": "2026-09-17T14:30:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30986",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "Four Adventures of Reinette and Mirabelle",
+    "start": "2026-09-17T14:35:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30918",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "Yi Yi",
+    "start": "2026-09-17T14:40:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30827",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "The Wedding Banquet",
+    "start": "2026-09-17T14:45:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30914",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "Wives (Hustruer)",
+    "start": "2026-09-17T15:00:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30851",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "The Wedding Banquet",
+    "start": "2026-09-17T15:00:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30935",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "Jollof Films Presents: Faat Kin\u00e9",
+    "start": "2026-09-17T15:00:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30936",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "Time and Tide",
+    "start": "2026-09-17T15:10:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30852",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "Evita",
+    "start": "2026-09-17T15:15:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30828",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "The Practice of Love",
+    "start": "2026-09-17T15:30:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31001",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "Oedipus Rex",
+    "start": "2026-09-17T15:45:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30982",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "RoboCop - The Director's Cut",
+    "start": "2026-09-17T15:50:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30976",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "Games of Love and Loneliness",
+    "start": "2026-09-17T16:00:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30843",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "ACE Presents: Pumping Iron",
+    "start": "2026-09-17T16:00:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30836",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "Tokyo Melody",
+    "start": "2026-09-17T16:10:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30922",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "Nostos: The Return",
+    "start": "2026-09-17T16:10:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30996",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "Daughter's Daughter",
+    "start": "2026-09-17T16:40:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30907",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "Electra, My Love",
+    "start": "2026-09-17T16:45:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30923",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "Sympathy for Mr. Vengeance",
+    "start": "2026-09-17T16:45:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30946",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "Invisible Adversaries",
+    "start": "2026-09-17T16:45:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30988",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "Wives: Ten Years After",
+    "start": "2026-09-17T17:00:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30857",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "The Blade",
+    "start": "2026-09-17T17:00:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30915",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "Ryuichi Sakamoto | Opus",
+    "start": "2026-09-17T17:15:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30937",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "Valie Export Shorts Program",
+    "start": "2026-09-17T17:25:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31000",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "Yi Yi",
+    "start": "2026-09-17T17:30:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30853",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "Ryuichi Sakamoto: Diaries",
+    "start": "2026-09-17T17:45:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30925",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "Daughter's Daughter",
+    "start": "2026-09-17T17:50:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30978",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "The Left-Handed Girl",
+    "start": "2026-09-17T18:00:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30829",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "Story of Mother",
+    "start": "2026-09-17T18:00:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30942",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "O Brother, Where Art Thou?",
+    "start": "2026-09-17T18:00:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30981",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "Stray Dogs",
+    "start": "2026-09-17T18:10:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30830",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "Ulysses' Gaze",
+    "start": "2026-09-17T18:10:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30997",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "Next of Kin",
+    "start": "2026-09-17T18:15:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30842",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "Time and Tide",
+    "start": "2026-09-17T18:20:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30930",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "Zidane: A 21st Century Portrait",
+    "start": "2026-09-17T18:30:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30837",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "The Yellow Sea",
+    "start": "2026-09-17T18:45:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30949",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "Wives III",
+    "start": "2026-09-17T19:00:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30856",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "Medea (1969)",
+    "start": "2026-09-17T19:00:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30989",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "Se7en",
+    "start": "2026-09-17T19:10:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30916",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "This Long Century Presents: Salom\u00e9 Lamas",
+    "start": "2026-09-17T19:15:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30917",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "A Bittersweet Life",
+    "start": "2026-09-17T19:20:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30953",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "The Wailing",
+    "start": "2026-09-17T19:50:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30947",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "Ryuichi Sakamoto: Coda",
+    "start": "2026-09-17T20:00:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30941",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "Fireflies Press Presents: Morvern Callar",
+    "start": "2026-09-17T20:00:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30938",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "Stealing Beauty",
+    "start": "2026-09-17T20:15:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30841",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "Midnight in Paris",
+    "start": "2026-09-17T20:20:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30979",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "Ryuichi Sakamoto: Coda",
+    "start": "2026-09-17T20:25:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30983",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "The Foul King",
+    "start": "2026-09-17T20:25:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30951",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "Stray Dogs",
+    "start": "2026-09-17T20:45:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30855",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "Alien: Resurrection",
+    "start": "2026-09-17T20:45:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30929",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "The Blade",
+    "start": "2026-09-17T20:50:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30831",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "Se7en",
+    "start": "2026-09-17T20:50:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30854",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "The Witch Hunt",
+    "start": "2026-09-17T21:00:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30832",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "Ghost in the Shell: 30th Anniversary Remaster",
+    "start": "2026-09-17T21:00:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30838",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "Electra, My Love",
+    "start": "2026-09-17T21:15:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30990",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "A Bittersweet Life",
+    "start": "2026-09-17T21:30:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30950",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "O Brother, Where Art Thou?",
+    "start": "2026-09-17T21:35:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30998",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "The Ninth Gate",
+    "start": "2026-09-17T21:45:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30911",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "RoboCop - The Director's Cut",
+    "start": "2026-09-17T21:45:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30999",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "The Foul King",
+    "start": "2026-09-17T21:45:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30954",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "A Better Tomorrow III: Love and Death in Saigon",
+    "start": "2026-09-17T22:00:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30912",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "Oedipus Rex",
+    "start": "2026-09-17T22:00:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30940",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "Paprika",
+    "start": "2026-09-17T22:15:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30939",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "The Wailing",
+    "start": "2026-09-17T22:15:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30952",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "Train to Busan",
+    "start": "2026-09-17T22:25:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30945",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "Alien: Resurrection",
+    "start": "2026-09-17T22:30:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30980",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "Don't Play with Fire",
+    "start": "2026-09-17T22:45:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30840",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "The Warriors",
+    "start": "2026-09-17T22:50:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30839",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "Train to Busan",
+    "start": "2026-09-17T22:50:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30948",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
+    "film": "Knock Off",
+    "start": "2026-09-17T23:00:00",
     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30833",
     "format": null,
     "note": null
@@ -1322,7 +1362,7 @@
   {
     "theater": "Metrograph",
     "film": "Ghost in the Shell: 30th Anniversary Remaster",
-    "start": "2026-09-08T23:00:00",
+    "start": "2026-09-17T23:00:00",
     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30834",
     "format": null,
     "note": null
@@ -1330,15 +1370,23 @@
   {
     "theater": "Metrograph",
     "film": "Rebels of the Neon God",
-    "start": "2026-09-08T23:00:00",
+    "start": "2026-09-17T23:00:00",
     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30928",
     "format": null,
     "note": null
   },
   {
     "theater": "Metrograph",
+    "film": "Heathers",
+    "start": "2026-09-17T23:00:00",
+    "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30991",
+    "format": null,
+    "note": null
+  },
+  {
+    "theater": "Metrograph",
     "film": "Paprika",
-    "start": "2026-09-08T23:20:00",
+    "start": "2026-09-17T23:20:00",
     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30927",
     "format": null,
     "note": null
